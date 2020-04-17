@@ -343,6 +343,7 @@ template {
 
 html {
   scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif, arial;
 }
 
 .hero {
@@ -358,6 +359,10 @@ html {
       justify-content: space-around;
   height: 8vh;
   padding-top: 10px;
+}
+
+.hero nav a {
+  text-decoration: none;
 }
 
 .hero .hero-intro {
@@ -383,17 +388,18 @@ html {
 
 .hero .hero-intro h2 {
   margin: 0;
-  color: white;
+  color: #fcf7eb;
   text-shadow: -1px 1px 1px black, -2px 2px 1px black, -3px 3px 1px black;
   font-size: 68px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .hero .hero-intro img {
-  height: 20vh;
-  width: 20vh;
-  padding-top: 30px;
+  height: 200px;
+  width: 200px;
+  margin-top: 30px;
   border-radius: 50%;
+  border: 2px solid #e8dec5;
 }
 
 .hero .hero-intro p {
@@ -431,7 +437,6 @@ html {
 
 .work {
   background-color: #a3f7bf;
-  height: 100vh;
   text-align: center;
   padding: 0 20px;
   display: -webkit-box;
@@ -443,6 +448,13 @@ html {
           flex-direction: column;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+.work a {
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  border: 2px solid #e8dec5;
 }
 
 .resume {
