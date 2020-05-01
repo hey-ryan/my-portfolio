@@ -7,74 +7,76 @@
     <meta name="description" content="Ryan Carranco Portfolio">
     <title>Document</title>
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https: //cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
 
-    <section class="hero">
-        <nav>
-            <a>Home</a>
-            <a href="#about">About</a>
-            <a>Work</a>
-            <a>Resume</a>
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <svg class="text-warning bi bi-lightning" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M11.251.068a.5.5 0 01.227.58L9.677 6.5H13a.5.5 0 01.364.843l-8 8.5a.5.5 0 01-.842-.49L6.323 9.5H3a.5.5 0 01-.364-.843l8-8.5a.5.5 0 01.615-.09zM4.157 8.5H7a.5.5 0 01.478.647L6.11 13.59l5.732-6.09H9a.5.5 0 01-.478-.647L9.89 2.41 4.157 8.5z" clip-rule="evenodd"/>
+                  </svg>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#">Work</a>
+                <a class="nav-link" href="#">Resume</a>
+            </div>
         </nav>
-        <div class="hero-intro">
-            <h2>HI!</h2>
-            <img src="assets/images/canvas.jpg">
-            <h1>I'm Ryan Carranco</h1>
-            <p>and I'm an aspiring web developer</p> 
-        </div>
-            
-    </section>
+        <div class="jumbotron">
+            <div class="container">
+                <h2 class="pop ">HI!</h2>
+                <h1 class="display-4">I'm Ryan Carranco</h1>
+                <p class="lead">and I'm an aspiring web developer</p>
+            </div> 
+        </div>  
+    
+    <main role="#main" class="container">
+        <div class="" id="about">
+            <h2 class="font-italic font-weight-light">About Me</h2>
+                <h3>Adaptable</h3>
+                <p>Aircraft mechanic, barista, line cook, restaraunt manager, trainer, bank teller. I couldn't have done all these 
+                    things without my love for learning new things.
+                </p>
+                <h3>All star team building experience.</h3>
+                <p>I have lead and built teams in the USAF and
+                at Singh's Vietnamese restaraunt. Understands the importance of a team first mentality. 
+                </p>
+                <h3>Computer science education</h3>
+                <p>I've been studying HTML,  CSS, and a little JS with Alamo Colleges for over a year. In addition to the languages
+                    I have also learned how to setup a coding environment, use Githup, and install extensions like scss to my text editor.
+                </p>
+                <h3>Interdiscplinary interests</h3>
+                <p>If you are looking for someone that can draw, use illustrator / photoshop, or has an eye for design; then I
+                    can help.
+                </p>
+                <h3>Available for employment</h3>
+                <p>Ready to get my hands dirty.</p>
+            <h2 class="font-italic font-weight-light">WORK</h2>
+            <h4>Singh's Vietnamese Website / Web design</h4>
+            <a></a>
+            <p>I thought making the website for the restaraunt I manage would be a good starter project for my web design career.</p>
+            <h4>Singh's Vietnamese Menu / Design</h4>
+            <a></a>
+            <p>A simple menu I designed as we transitioned from a food truck to a brick and mortar restaraunt</p>
+            <h4>Random doodle prompt generator</h4>
+            <a></a>
+            <p>A little randomizer for when you can't think of what to doodle</p>
+            <h2 class="font-italic font-weight-light">Resume</h2>
+    </main>
 
-    <section class="about" id="about">
-        <h2>About Me</h2>
-        <div class="about-content">
-            <h3>Adaptable</h3>
-            <p>Aircraft mechanic, barista, line cook, restaraunt manager, trainer, bank teller. I couldn't have done all these 
-                things without my love for learning new things.
-            </p>
-        </div>
-        <div class="about-content">
-            <h3>All star team building experience.</h3>
-            <p>I have lead and built teams in the USAF and
-            at Singh's Vietnamese restaraunt. Understands the importance of a team first mentality. 
-            </p>
-        </div>
-        <div class="about-content">
-            <h3>Computer science education</h3>
-            <p>I've been studying HTML,  CSS, and a little JS with Alamo Colleges for over a year. In addition to the languages
-                I have also learned how to setup a coding environment, use Githup, and install extensions like scss to my text editor.
-            </p>
-        </div>
-        <div class="about-content">
-            <h3>Interdiscplinary interests</h3>
-            <p>If you are looking for someone that can draw, use illustrator / photoshop, or has an eye for design; then I
-                can help.
-            </p>
-        </div>
-        <div class="about-content">
-            <h3>Available for employment</h3>
-            <p>Ready to get my hands dirty.</p>
-        </div>
-    </section>
-
-    <section class="work">
-        <h2>WORK</h2>
-        <h4>Singh's Vietnamese Website / Web design</h4>
-        <a></a>
-        <p>I thought making the website for the restaraunt I manage would be a good starter project for my web design career.</p>
-        <h4>Singh's Vietnamese Menu / Design</h4>
-        <a></a>
-        <p>A simple menu I designed as we transitioned from a food truck to a brick and mortar restaraunt</p>
-        <h4>Random doodle prompt generator</h4>
-        <a></a>
-        <p>A little randomizer for when you can't think of what to doodle</p>
-    </section>
-
-    <section class="resume">
-        <h2>Resume</h2>
-    </section>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     
 </body>
 </html>
